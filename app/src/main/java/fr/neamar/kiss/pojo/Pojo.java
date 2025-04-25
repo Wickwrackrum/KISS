@@ -5,6 +5,7 @@ import fr.neamar.kiss.utils.fuzzy.MatchInfo;
 
 public abstract class Pojo {
     public static final String DEFAULT_ID = "(none)";
+    public static final int FOLDER = 99; // Add this at the top with the others
 
     // Globally unique ID.
     // Usually starts with provider scheme, e.g. "app://" or "contact://" to
@@ -92,3 +93,4 @@ public abstract class Pojo {
         return false;
     }
 }
+
